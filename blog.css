@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+}
+table,
+td {
+  border: 1px solid black;
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+.title {
+  text-align: center;
+}
