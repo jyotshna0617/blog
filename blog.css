@@ -3,11 +3,17 @@ table {
 }
 table,
 td {
-  border: 1px solid black;
   padding: 20px;
-  border-collapse: collapse;
 }
 
-.title {
+.title{
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
   text-align: center;
+  font-size: 30px;
 }
+.img-title{
+  font-size: 30px;
+}
+
+
