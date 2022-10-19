@@ -5,10 +5,9 @@ table {
   width: 100%;
 }
 
-table,
 td {
-  padding: 20px;
-  margin-right: 10px!important;
+  padding: 10px;
+  margin-right: 5px !important;
 }
 .title {
   text-align: center;
@@ -18,20 +17,30 @@ td {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.title p{
+.title p {
   font-size: 40px;
 }
 .col1 {
   width: 70% !important;
+}
+
+.col2 {
+  display: flex; /*આ છેને col2 ને ઉપર લાવા કરું છે  */
+}
+
+.table {
+  /*આ table class ni css */
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 10px;
+}
+
+.img-title,
+.writer-div {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .image1 img {
   width: 100%;
-}
- h2 {
-  font-size: 40px;
 }
 
 .footer {
@@ -43,8 +52,10 @@ td {
   padding-bottom: 42px;
 }
 .button {
-  font-size: 50px;
+  font-size: 50px; /* this is again */
 }
+
 .witer {
+  /*check witer spelling (This is repeat mistake)*/
   font-size: 30px;
 }
