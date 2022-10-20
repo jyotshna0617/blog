@@ -1,5 +1,7 @@
 body {
   background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
 }
 table {
   width: 100%;
@@ -26,7 +28,8 @@ h2{
 }
 
 .col2 {
-  display: flex; /*આ છેને col2 ને ઉપર લાવા કરું છે  */
+  display: flex;
+  flex-direction: column; /*આ છેને col2 ને ઉપર લાવા કરું છે  */
 }
 
 .table {
@@ -36,24 +39,54 @@ h2{
   width: 100%;
 }
 
+
 .img-title,
 .writer-div {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   margin-top:10px;
+}
+
+/* Read more Button Start */
+.comment{
+  display: flex;
+  justify-content: space-between;
 }
 .read{
   box-sizing: inherit;
   padding: 12px 24px;
   cursor: pointer;
+  border: 1px solid #ccc!important;
+  color: #000!important;
+  background-color: #fff!important;
 }
+/* Read more Button End */
+
 .image1 img {
   width: 100%;
 }
-.pic{
-  float: left;
-  margin-right: 16px;
+/* fuor box*/
+.writer-div tr td{
+  display: flex;
+  border-bottom: 1px solid #dddcdc;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
+.writer-div img{
+   margin-right: 16px;
+}
+.writer-div tr td:hover{
+  background-color: #ccc;
+}
+ /* fuor box end*/
+     /*five box open*/
+.tags{
+  display: flex;
+  word-spacing: 20px;
+  justify-content:  space-between;
+
+}
+     /*five box closed*/
+     /*footer open*/
 .footer {
   color: #fff;
   background-color: #616161;
@@ -75,7 +108,7 @@ h2{
   background-color: #000; 
   padding: 12px 24px;
 }
-
+ /*footer end*/
 .witer{
   font-size: 20px;
   font-style:bold;
