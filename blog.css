@@ -53,6 +53,7 @@ h2{
 .comment{
   display: flex;
   justify-content: space-between;
+  font-weight : bold !important;
 }
 .zero{
   background-color: #000;
@@ -76,6 +77,7 @@ border-radius: 50%;
   border: 1px solid #ccc!important;
   color: #000!important;
   background-color: #fff!important;
+  font-weight: bold !important;
 }
 /* Read more Button End */
 
@@ -112,6 +114,8 @@ justify-content: space-evenly;
 .travel {
   color: #fff !important;
    background-color: #000 !important;
+   padding-left: 5px;
+   padding-right: 5px;
 }
 .tags p {
   margin-right: 10px;
@@ -156,6 +160,9 @@ justify-content: space-evenly;
   color: #fff;
   background-color: #000; 
   padding: 12px 24px;
+}
+.footer a{
+  color: #fff;
 }
  /*footer end*/
 .witer{
